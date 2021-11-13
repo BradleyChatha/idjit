@@ -1,0 +1,6 @@
+[submodule "subprojects/mir"]
+	path = subprojects/mir
+	url = https://github.com/vnmakarov/mir
+[submodule "subprojects/dmd"]
+	path = subprojects/dmd
+	url = https://github.com/dlang/dmd

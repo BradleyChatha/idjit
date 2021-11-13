@@ -1,0 +1,14 @@
+project('mir', 'c')
+
+src = [
+    'mir.c',
+    'mir-gen.c',
+    'c2mir/c2mir.c'
+]
+
+include = include_directories('.', 'c2mir')
+
+mir_dep = declare_dependency(
+    sources: src,
+    include_directories: include
+)
