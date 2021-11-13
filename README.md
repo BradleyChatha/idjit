@@ -8,8 +8,17 @@ You *should* just be able to run `meson build; cd build; ninja` and things shoul
 
 The only extra steps that should be needed are:
 
-* Make sure you've cloned the submodules as well
+* Make sure you've cloned the submodules as well (`git submodule update --init`)
 * Make sure you have [dstep](https://github.com/jacob-carlborg/dstep) on your PATH.
+
+You can run the example via:
+
+```sh
+meson build
+cd build
+ninja
+./example
+```
 
 ## Example
 
